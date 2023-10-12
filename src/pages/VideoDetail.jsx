@@ -27,7 +27,6 @@ const VideoDetail = () => {
         />
 
         <VideoInfo id={id} />
-        <div></div>
       </div>
 
       <div className="flex flex-col gap-10 lg:max-w-[400px] sm:m-auto lg:h-screen lg:overflow-auto">
