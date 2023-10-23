@@ -1,6 +1,7 @@
 import axios from "axios";
 
 const options = {
+  params: { geo: "TR", lang: "tr" },
   headers: {
     "X-RapidAPI-Key": "5e1b5b32c4mshad5b1b1f3e1c3c4p1b95fcjsn83a801dd00aa",
     "X-RapidAPI-Host": "yt-api.p.rapidapi.com",

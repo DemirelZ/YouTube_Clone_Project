@@ -24,7 +24,7 @@ const Header = () => {
       >
         <input
           type="search"
-          className="bg-black rounded-[20px  0  0 20px] py-1 px-3 outline-none "
+          className="bg-black rounded-[20px  0  0 20px] py-1 px-3 outline-none w-[500px] "
         />
         <button className="border-l px-2 h-full">
           <AiOutlineSearch />

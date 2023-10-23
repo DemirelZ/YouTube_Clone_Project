@@ -17,7 +17,7 @@ const VideoDetail = () => {
   }, []);
 
   return (
-    <div className="h-screen overflow-auto lg:overflow-hidden flex flex-col lg:flex-row lg:px-[100p] gap-5 p-4 ">
+    <div className="h-screen overflow-auto  flex flex-col lg:flex-row  gap-16 p-4 ">
       <div className="w-full">
         <ReactPlayer
           controls
@@ -29,7 +29,7 @@ const VideoDetail = () => {
         <VideoInfo id={id} />
       </div>
 
-      <div className="flex flex-col gap-10 lg:max-w-[400px] sm:m-auto lg:h-screen lg:overflow-auto">
+      <div className="flex flex-col gap-16 lg:max-w-[600px] sm:m-auto lg:h-screen lg:overflow-auto overflow-container">
         {!related
           ? "..."
           : related.map((item) => {
